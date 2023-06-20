@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&family=Open+Sans&family=Orbitron:wght@700&family=Poppins:wght@300;400&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.calculator{
+    background-color: rgb(1, 1, 1);
+    border: 3px solid rgb(209, 201, 201);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px #dfdfdf ;
+    
+}
+
+input{
+    width: 380px;
+    height: 78px;
+    border: none;
+    contain: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input::placeholder{
+    text-align: right;
+    font-size: 38px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+
+}
+#input-el {
+    padding-inline: 8px;
+}
+
+button{
+    width: 84px;
+    height: 62px;
+    margin: 6px 3px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:whitesmoke ;
+    
+}
+button:hover{
+    background-color:white;
+}
+button.ans{
+    width: 182px;
+    background-color: #89f355;
+}
+button.ans:hover{
+    background-color: #78f52f;
+}
+
+.operator{
+    background-color: #eeebd0;
+}
+.operator:hover{
+    background-color: #fba031;
+}
+.data-action{
+    background-color: #f93633;
+}
+.data-action:hover{
+    background-color: #f9000c;
+}
