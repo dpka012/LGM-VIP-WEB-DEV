@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Exo+2:wght@400;500&family=Open+Sans&family=Orbitron:wght@700&family=Poppins:wght@300;400&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+    background-color: rgb(166, 176, 255);
+}
+h1{
+    background-color: blue;
+    padding: 12px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.fillup{
+    margin-block: 40px;
+    margin-inline: 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+   
+}
+.input{
+    background-color: rgb(184, 192, 252);
+    width: 48%;
+    min-height: fit-content;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+input{
+   border-radius: 5px;
+   border: 2px solid rgb(156, 137, 137);
+   box-shadow: 0px 0px 2px white;
+}
+input[type='text'] , [type ='email'] {
+   width: 350px;
+   height: 35px;
+}
+input[ type='checkbox'] , [ type ='radio']{
+    width: 20px;
+    height: 18px;
+    background-color: blue;
+    margin: 2px;
+   
+}
+label{
+    color: rgb(0, 0, 0);
+    padding-inline: 2px;
+    font-size: 18px;
+    font-weight: 500;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+#delbtn{
+    background-color: rgb(212, 42, 42);
+}
+input[type='checkbox']:before { 
+    width: 5px;
+    height: 5px;
+ }
+ .displayData{
+    background-color: rgb(184, 192, 252);
+    width: 42%;
+    min-height: fit-content;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    padding-inline: 25px;
+    padding-block: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(18, 17, 17);
+ }
+ 
+ .inputbox{
+    margin-block: 8px;
+ }
+ input::placeholder{
+    font-size: 21px;
+    padding-block: 5px;
+    border-color: rgb(191, 191, 172);
+ }
+ 
+ .info{
+    font-size: 17px;
+    padding-inline: 7px;
+    color: rgb(24, 23, 23);
+ }
